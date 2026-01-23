@@ -18,7 +18,7 @@ async function getProduct(slug: string): Promise<Product> {
   });
 
   if (!response.ok) {
-    const text = await response.text(); // 👈 debug real
+    const text = await response.text();
     throw new Error(`Erro ao buscar produto (${response.status}): ${text}`);
   }
 
