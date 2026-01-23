@@ -1,4 +1,4 @@
-import { AddToCartButton } from "@/components/add-to-card-button";
+import { AddToCartButton } from "@/components/add-to-cart-button";
 import { api } from "@/data/api";
 import { Product } from "@/data/types/products";
 import { Metadata } from "next";
