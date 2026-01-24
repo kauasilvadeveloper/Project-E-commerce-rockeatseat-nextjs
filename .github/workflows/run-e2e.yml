@@ -27,7 +27,7 @@ jobs:
         uses: cypress-io/github-action@v6
         env:
           APP_URL: http://localhost:3000
-          NEXT_PUBLIC_API_BASE_URL: https://devstore-api.vercel.app
+          NEXT_PUBLIC_API_BASE_URL: https://devstore-api-tan.vercel.app/
         with:
           build: pnpm build
           start: pnpm start
