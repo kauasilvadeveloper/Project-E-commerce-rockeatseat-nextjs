@@ -17,4 +17,10 @@ export default defineConfig([
     "node_modules/**",
     "next-env.d.ts",
   ]),
+  {
+    rules: {
+      '@typescript-eslint/no-namespace': 'off', // Use 'off' ou 0 para desativar
+    },
+  },
+
 ])
